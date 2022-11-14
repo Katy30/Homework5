@@ -1,0 +1,541 @@
+*{
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.logo{
+    float: left;
+    margin: 16px 0 16px 12px;
+    font-size:27px;
+    font-weight: 600;
+}
+li{
+    font-weight: 500;
+    font-size: 21px;
+    margin-left: 24px;
+    display: inline;
+}
+.link{
+    color: #000000;
+    text-decoration: none;
+}
+.links{
+    display: inline-block;
+}
+.allmenu,
+.menu{
+    margin-top: 16px;
+    display: inline-block;
+    float: right;
+}
+
+.buttonheader{
+    margin-left: 32px;
+    margin-right: 12px;
+    display: inline-block;
+    padding: 10px 16px 10px 16px;
+    font-size: 21px;
+    font-weight: 500;
+    color: #2203e4;
+    background-color: white;
+    border: 1px solid rgba(34, 3, 228, 1);
+}
+.phone{
+    max-width: 1280px;
+    margin: 0 auto 143px auto;
+}
+h1{
+    font-weight: 700;
+    font-size:47px ;
+    margin-bottom: 24px;
+    margin-left: 10px;
+}
+.above{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.authors{
+    margin: 24px 0 0 10px;
+    background: #0062ff;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffff;
+    border:0;
+    padding: 10px 16px 10px 16px;
+}
+.checkdemo{
+    margin: 24px 0 0 24px;
+    background: #FFFF;
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+    border: 1px solid #575757;
+    padding: 10px 16px;
+}
+.imgphone{
+    display: inline-block;
+    margin-top: 120px;
+    margin-left: 70px;
+
+}
+.writephone{
+    vertical-align: top;
+    margin-top: 260px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.mainauthor{
+    margin-top: 145px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.author{
+    font-size: 36px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 12px;
+}
+.author-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+    text-align: center;
+}
+.markphoto{
+    margin-top: 50px;
+    margin-right: 46px;
+    display: inline-block;
+}
+.markinfo{
+    display: inline-block;
+    vertical-align: top;
+}
+.markname{
+    margin-top: 36px;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 27px;
+    color: #000000;
+}
+.markname::after{
+    content: "Graphic designer";
+    font-size: 21px;
+    font-weight: 500;
+    color: #575757;
+    display: block;
+}
+.authorinfo{
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #575757;
+}
+.icon{
+    margin-top: 25px;
+
+}
+.in{
+    display: inline-block;
+    margin: 0 auto;
+}
+.insta,
+.face{
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+.gold{
+    float: right;
+    position: relative;
+    margin: 0 auto;
+
+}
+.mark{
+    float: left;
+
+}
+.gregory{
+    font-size: 21px;
+    font-weight: 500;
+    color: #dea405;
+    margin-top: 40px;
+}
+.henry{
+    font-size: 21px;
+    font-weight: 500;
+    color: #dea405;
+    margin-top: 8px ;
+}
+.markhead{
+    font-size: 27px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 8px;
+}
+.gregory::after{
+    content: "Programmer";
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFBE0B;
+    display: block;
+}
+.henry::after{
+    content: "Analyst";
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFBE0B;
+    display: block;
+}
+.markhead::after{
+    content: "Graphic designer";
+    font-size: 21px;
+    font-weight: 500;
+    color: #575757;
+    display:block;
+
+}
+.markhead::before{
+    content: url("../img/strela.png");
+    position: relative;
+    left: -15px;
+    bottom: -15px;
+}
+.blue{
+    width: 100%;
+    background-color: #0062FF;
+    padding-top:70px;
+    padding-bottom:70px;
+}
+.conteiner{
+    width: 1280px;
+    display: block;
+    margin: 0 auto;
+}
+.forwho{
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffff;
+    margin: 0;
+}
+.fortext{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffff;
+    margin-top: 16px;
+    text-align: center;
+}
+.forstudents,
+.foragency{
+    margin-top: 60px;
+    float: left;
+}
+.superimg{
+    display: inline-block;
+    margin-right: 34px ;
+}
+.studenttext,.freelantext,
+.agetext,.martext
+{
+    display: inline-block;
+    vertical-align: top;
+}
+.forstud,.forfreelance,
+.forag,.mar
+{
+    font-weight: 600;
+    font-size:27px;
+    color: #FFFF;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.studtext,.frtext,
+.atext,.markets{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+    color: #ffff;
+}
+.forfree,.formarketing{
+    margin-top: 60px;
+    float: right;
+}
+.iwantit{
+    margin-top: 65px;
+    margin-bottom: 72px;
+    background: #FFFF;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2203e4;
+    border: 1px solid #2203e4;
+    padding: 10px 16px;
+    position: relative;
+    left: 580px;
+}
+.checkdemo-block{
+    padding-bottom:142px;
+    padding-top: 70px;
+}
+.checkinfo{
+    width: 100%;
+    background-color: #ffff;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.check{
+    font-size: 36px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.checktext{
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+    margin-top: 16px;
+    margin-bottom: 56px;
+}
+
+.videotext{
+    display: flex;
+
+}
+.moretext{
+    text-align: center;
+    display: inline-block;
+    margin-right: 48px;
+
+}
+.wrapper{
+    margin-bottom: 24px;
+    margin-left: 205px;
+
+}
+
+.watch,
+.conf,
+.readdoc{
+    font-weight: 500;
+    font-size: 21px;
+    color: black;
+    margin: 0 0 12px;
+
+}
+.watch{
+    margin-top: 12px;
+}
+.watchtext,
+.conftext,
+.rtext{
+    font-weight: 400;
+    font-size: 16px;
+    color: #575757;
+    margin: 0;
+}
+.opinions-block{
+    width:100%;
+    background-color: #FFBE0B;
+    padding-top: 67px;
+    padding-bottom: 67px;
+}
+.opinions{
+    text-align: center;
+    width: 1280px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+.opi{
+    font-weight: 600;
+    font-size: 36px;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 13px;
+}
+.optext{
+    font-weight: 400;
+    font-size: 16px;
+    color: #575757;
+    margin-top: 0;
+    margin-bottom: 42px;
+}
+.jones{
+    background: #F3F3F3;
+    box-shadow: 4px 4px 22px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    display: inline-block;
+    padding: 70px 60px 45px 16px;
+
+}
+.bluetwit{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 35px;
+
+}
+.info{
+    display: inline-block;
+}
+.name{
+    font-weight: 600;
+    font-size: 27px;
+    color: #000000;
+    margin-top:0;
+    margin-bottom:0;
+    text-align: left;
+}
+.ceo{
+    font-size: 21px;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+.ceotext{
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+    margin:0;
+    margin-top: 16px;
+}
+.name::after{
+    content: url(../img/stars.png);
+    position: relative;
+    left: 9px;
+    top: 4px;
+}
+.jones::before{
+    content: url(../img/before.png);
+    position: absolute;
+    right: 1040px;
+    top: 115px;
+    opacity: 0.60;
+}
+.jones::after {
+    content: url(../img/after.png);
+    position: absolute;
+    left: 1040px;
+    top: 115px;
+    opacity: 0.60;
+}
+.start-with{
+    width: 100%;
+    background-color: #fff;
+    padding-top: 90px;
+    padding-bottom: 102px;
+    margin: 0 auto;
+    text-align: center;
+}
+.with{
+    font-size: 36px;
+    font-weight: 600;
+    color: #000000;
+    margin:0;
+}
+.starttext{
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757;
+    margin:0;
+    margin-top:12px;
+}
+.ip14{
+    display: inline-block;
+}
+.iphone14{
+    margin-top: 75px;
+    margin-bottom: 0px;
+}
+.myprod{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 80px;
+}
+.mypr{
+    text-align: left;
+    font-size: 36px;
+    font-weight: 600;
+    color: #2203e4;
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+.mytext{
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+}
+.butt{
+    position: absolute;
+}
+.addcart{
+    background-color:#0062FF;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFF;
+    text-align: left;
+    border: none;
+    padding: 10px 16px;
+}
+.rev{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    text-align: left;
+}
+.rev::before{
+    content: url(../img/stars.png);
+    position: relative;
+    top: 10px;
+    right: 8px;
+}
+.footer{
+    max-width: 600px;
+    margin: 100px auto 50px;
+}
+.wait{
+    font-size: 27px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0;
+    margin-top: 147px;
+}
+.enter{
+    width: 100%;
+    margin: 0 auto 24px;
+    border: 0;
+    display: block;
+    padding: 25px 24px 26px 24px;
+    font-weight: 400;
+    font-size: 16px;
+    background: rgba(58, 134, 255, 0.2);
+    border-radius: 12px;
+}
+.enter::placeholder{
+    color:#2203E4;
+}
+.submit{
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    margin: -11px auto 54px;
+    border: 0;
+    display: block;
+    padding: 10px 0;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 98, 255, 1);
+}
